@@ -43,7 +43,15 @@ const enquiryForm = document.querySelector('[data-whatsapp-enquiry]');
 enquiryForm?.addEventListener('submit', (event) => {
     event.preventDefault();
     const form = new FormData(enquiryForm);
-    const message = [
+    const isHindi = document.documentElement.lang === 'hi';
+    const message = isHindi ? [
+        'नमस्ते UMA Bricks, मुझे ईंटों के रेट और कोटेशन चाहिए।',
+        `नाम: ${form.get('name')}`,
+        `फोन नंबर: ${form.get('phone')}`,
+        form.get('city') ? `साइट स्थान / शहर: ${form.get('city')}` : '',
+        form.get('quantity') ? `अनुमानित संख्या: ${form.get('quantity')} ईंटें` : '',
+        form.get('message') ? `ज़रूरत विवरण: ${form.get('message')}` : '',
+    ].filter(Boolean).join('\n') : [
         'Hello UMA Bricks, I would like to request a quote.',
         `Name: ${form.get('name')}`,
         `Phone: ${form.get('phone')}`,
