@@ -1,21 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- 1. English Homepage -->
   <url>
     <loc>https://uma-tau.vercel.app/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://uma-tau.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://uma-tau.vercel.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uma-tau.vercel.app/" />
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://uma-tau.vercel.app/images/uma-brick-logo.webp</image:loc>
+      <image:title>UMA Bricks - Red Brick Manufacturer in Ghazipur</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://uma-tau.vercel.app/images/uma-hero.webp</image:loc>
+      <image:title>Kiln-fired red bricks manufacturing at UMA Bricks Ghazipur</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://uma-tau.vercel.app/images/factory/uma-marked-bricks.webp</image:loc>
+      <image:title>UMA embossed Class 1 red bricks at factory yard</image:title>
+    </image:image>
   </url>
+
+  <!-- 2. Hindi Homepage -->
+  <url>
+    <loc>https://uma-tau.vercel.app/hi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://uma-tau.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://uma-tau.vercel.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uma-tau.vercel.app/" />
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://uma-tau.vercel.app/images/uma-brick-logo.webp</image:loc>
+      <image:title>उमा ईंट उद्योग - लाल ईंट निर्माता गाजीपुर</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://uma-tau.vercel.app/images/uma-hero.webp</image:loc>
+      <image:title>उमा ईंट उद्योग गाजीपुर में लाल ईंटों का निर्माण</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://uma-tau.vercel.app/images/factory/uma-marked-bricks.webp</image:loc>
+      <image:title>UMA मार्का प्रथम श्रेणी (अव्वल) लाल ईंटें</image:title>
+    </image:image>
+  </url>
+
+  <!-- 3. English Ghazipur Hub -->
   <url>
     <loc>https://uma-tau.vercel.app/ghazipur/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://uma-tau.vercel.app/ghazipur/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://uma-tau.vercel.app/hi/ghazipur/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uma-tau.vercel.app/ghazipur/" />
+    <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://uma-tau.vercel.app/images/factory/uma-marked-bricks.webp</image:loc>
+      <image:title>First class red bricks with UMA mark at Firozpur kiln in Ghazipur</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://uma-tau.vercel.app/images/factory/factory-yard.webp</image:loc>
+      <image:title>Brick stacks ready for delivery across Ghazipur district</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://uma-tau.vercel.app/images/factory/kiln-interior.webp</image:loc>
+      <image:title>Brick kiln firing chamber at UMA Bricks Firozpur Ghazipur</image:title>
+    </image:image>
   </url>
+
+  <!-- 4. Hindi Ghazipur Hub -->
+  <url>
+    <loc>https://uma-tau.vercel.app/hi/ghazipur/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://uma-tau.vercel.app/ghazipur/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://uma-tau.vercel.app/hi/ghazipur/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uma-tau.vercel.app/ghazipur/" />
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://uma-tau.vercel.app/images/factory/uma-marked-bricks.webp</image:loc>
+      <image:title>गाजीपुर के फिरोजपुर भट्ठे पर तैयार UMA मार्का अव्वल लाल ईंटें</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://uma-tau.vercel.app/images/factory/factory-yard.webp</image:loc>
+      <image:title>गाजीपुर जिले में लोडिंग और ट्रांसपोर्ट के लिए तैयार ताजी पकी ईंटें</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://uma-tau.vercel.app/images/factory/kiln-interior.webp</image:loc>
+      <image:title>उमा ईंट उद्योग फिरोजपुर भट्ठे में ईंटों की नियंत्रित पकाई</image:title>
+    </image:image>
+  </url>
+
+  <!-- 5. English Varanasi Supply -->
   <url>
     <loc>https://uma-tau.vercel.app/varanasi/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://uma-tau.vercel.app/varanasi/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://uma-tau.vercel.app/hi/varanasi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uma-tau.vercel.app/varanasi/" />
+    <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://uma-tau.vercel.app/images/factory/equipment-yard.webp</image:loc>
+      <image:title>Commercial truckload brick transport for Varanasi construction</image:title>
+    </image:image>
   </url>
+
+  <!-- 6. Hindi Varanasi Supply -->
+  <url>
+    <loc>https://uma-tau.vercel.app/hi/varanasi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://uma-tau.vercel.app/varanasi/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://uma-tau.vercel.app/hi/varanasi/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://uma-tau.vercel.app/varanasi/" />
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://uma-tau.vercel.app/images/factory/equipment-yard.webp</image:loc>
+      <image:title>गाजीपुर भट्ठे से वाराणसी निर्माण प्रोजेक्टों के लिए सीधा ट्रकलोड डिस्पैच</image:title>
+    </image:image>
+  </url>
+
 </urlset>
